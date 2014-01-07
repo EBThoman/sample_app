@@ -1,0 +1,12 @@
+# postgresql
+#   gem install pg
+#
+#   Ensure the pg gem is defined in your Gemfile
+#   gem 'pg'
+development:
+  adapter: postgresql
+  host: localhost
+  database: sample_app
+  username: postgres
+  password: postgres
+  encoding: unicode
